@@ -6,164 +6,165 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', '맑은 고딕', 'Malgun Gothic', sans-serif;
-    background: #0a0a0a;
-    color: #e0e0e0;
-    padding: 48px 28px;
-    line-height: 2.1;
+    background: #0e0e0e;
+    color: #e8e8e8;
+    padding: 40px 24px;
+    line-height: 2.0;
     font-size: 15px;
   }
-  .wrap { max-width: 680px; margin: 0 auto; }
-  .opening-label {
-    font-size: 10px;
-    letter-spacing: 4px;
-    color: #333;
+  .wrap { max-width: 760px; margin: 0 auto; }
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5px;
     text-align: center;
-    margin-bottom: 48px;
+    color: #fff;
+    margin-bottom: 6px;
   }
-  .cut {
-    margin-bottom: 36px;
-  }
-  .cut-num {
-    font-size: 10px;
+  .subtitle {
+    text-align: center;
+    font-size: 11px;
+    color: #555;
     letter-spacing: 3px;
-    color: #2a2a2a;
-    margin-bottom: 10px;
+    margin-bottom: 56px;
+  }
+  .section { margin-bottom: 64px; }
+  .section-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+  .section-tag {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #0e0e0e;
+    background: #c084fc;
+    padding: 4px 12px;
+    border-radius: 2px;
+    white-space: nowrap;
+    margin-top: 3px;
+  }
+  .section-tag.blue { background: #818cf8; }
+  .section-tag.pink { background: #f472b6; }
+  .section-tag.gold { background: #fbbf24; }
+  .section-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  .section-sub {
+    font-size: 11px;
+    color: #555;
+    letter-spacing: 1px;
+    margin-top: 4px;
   }
   p {
-    color: #bbb;
+    margin-bottom: 22px;
+    color: #ccc;
     word-break: keep-all;
-    margin-bottom: 14px;
-    line-height: 2.1;
   }
   em {
     font-style: normal;
     color: #c084fc;
   }
-  em.w { color: #fff; }
+  em.blue { color: #818cf8; }
+  em.pink { color: #f472b6; }
+  em.gold { color: #fbbf24; }
+  em.gray { color: #888; }
   strong {
     font-weight: 700;
     color: #fff;
   }
-  .direction {
-    color: #555;
-    font-size: 13px;
-    font-style: italic;
-    margin-bottom: 10px;
+  .flashback {
+    border-left: 2px solid #2a2a2a;
+    padding: 18px 22px;
+    margin: 28px 0;
+    background: #111;
+    border-radius: 0 4px 4px 0;
   }
-  .divider-sm {
-    border: none;
-    border-top: 1px solid #161616;
-    margin: 32px 0;
-  }
-  .title-up {
-    text-align: center;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 8px;
-    color: #fff;
-    margin: 56px 0;
-    padding: 32px 0;
-    border-top: 1px solid #1a1a1a;
-    border-bottom: 1px solid #1a1a1a;
-  }
-  .title-sub {
-    text-align: center;
+  .flashback-label {
     font-size: 10px;
     letter-spacing: 3px;
-    color: #2a2a2a;
-    margin-top: 10px;
+    color: #3a3a3a;
+    margin-bottom: 12px;
   }
-  .transition {
+  .flashback p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.9;
+  }
+  .flashback p:last-child { margin-bottom: 0; }
+  .scene {
+    border-left: 2px solid #1e1e2e;
+    padding: 18px 22px;
+    margin: 28px 0;
+    background: #0f0f1a;
+    border-radius: 0 4px 4px 0;
+  }
+  .scene-label {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #2d2d4a;
+    margin-bottom: 12px;
+  }
+  .scene p {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.9;
+  }
+  .scene p:last-child { margin-bottom: 0; }
+  .divider {
+    border: none;
+    border-top: 1px solid #1a1a1a;
+    margin: 56px 0;
+  }
+  .scene-break {
     text-align: center;
     color: #222;
-    letter-spacing: 6px;
-    margin: 40px 0;
-    font-size: 11px;
+    letter-spacing: 8px;
+    margin: 36px 0;
+    font-size: 12px;
+  }
+  .chapter-tag {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #333;
+    border: 1px solid #222;
+    padding: 2px 8px;
+    border-radius: 2px;
+    margin-bottom: 16px;
   }
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <div class="opening-label">1화 · 오프닝 씬</div>
+  <h1>야근</h1>
+  <div class="subtitle">FINAL COMPLETE OUTLINE · 80화 기승전결</div>
 
-  <div class="cut">
-    <div class="cut-num">CUT 01</div>
-    <p class="direction">완전한 암전. 소리만 먼저 들어온다.</p>
-    <p>숨소리. 시트 구겨지는 소리. 헤드보드가 벽에 닿는 둔한 소리.</p>
-    <p>화면이 천천히 밝아지면 — 클로즈업. 구겨진 흰 시트. 손가락이 그것을 꽉 쥐고 있다. <strong>여자의 손.</strong></p>
-  </div>
+  <!-- 기 -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-tag">기 (起)</div>
+      <div>
+        <div class="section-title">재회, 그리고 봉인 해제</div>
+        <div class="section-sub">1~20화 · 증오 / 죄책감 / 억압 / 첫 균열</div>
+      </div>
+    </div>
 
-  <div class="divider-sm"></div>
+    <div class="chapter-tag">1~3화 · 오프닝</div>
 
-  <div class="cut">
-    <div class="cut-num">CUT 02</div>
-    <p class="direction">카메라, 천천히 올라간다. 얼굴은 여전히 보이지 않는다.</p>
-    <p>드러난 쇄골. 흘러내린 머리카락이 목선을 덮고 있다. 남자의 손이 그 머리카락을 — 천천히 귀 뒤로 넘긴다. 목선이 드러나는 컷.</p>
-    <p>남자의 입술이 그 목에 닿는다. 여자의 손이 시트를 더 세게 쥔다.</p>
-  </div>
+    <p>어두운 방. 창문으로 가로등 빛만 들어온다. 흐트러진 시트. 클로즈업으로만 진행되는 첫 컷 — 얼굴은 보이지 않는다. 맞닿은 이마. 감은 눈. 흘러내리는 머리카락. 남자의 손이 여자의 뺨을 감싸다가 — 이마에 천천히 입술을 댄다. 여자가 눈을 뜬다. 남자의 목소리. <em>"...윤서야."</em> 여자의 눈에 뭔가 차오르는 컷. 독자는 이게 눈물인지 다른 감정인지 아직 모른다.</p>
 
-  <div class="divider-sm"></div>
+    <p><strong>타이틀 업. 야근 금지구역.</strong></p>
 
-  <div class="cut">
-    <div class="cut-num">CUT 03</div>
-    <p class="direction">클로즈업 연속. 빠르게 컷이 교차된다.</p>
-    <p>남자의 등에 얹힌 여자의 손. 손끝이 파고드는 컷.<br>
-    남자의 옆구리를 타고 내려가는 가로등 빛.<br>
-    여자의 발이 시트를 미는 컷.<br>
-    남자의 손이 여자의 허리를 잡아올리는 컷.</p>
-    <p>컷들 사이에 — 대사도 없고, 배경음악도 없다. <strong>소리만.</strong></p>
-  </div>
-
-  <div class="divider-sm"></div>
-
-  <div class="cut">
-    <div class="cut-num">CUT 04</div>
-    <p class="direction">속도가 느려진다. 긴 컷.</p>
-    <p>여자의 얼굴이 처음으로 반쯤 보인다. 눈을 감고 있다. 입술이 살짝 벌어진 채. 이마에 머리카락이 달라붙어 있다.</p>
-    <p>남자가 잠시 멈추는 컷. 여자가 눈을 뜨지 않은 채 — 손으로 남자의 목을 잡아당긴다.</p>
-    <p class="direction">말 없이. 그냥 — 더.</p>
-  </div>
-
-  <div class="divider-sm"></div>
-
-  <div class="cut">
-    <div class="cut-num">CUT 05</div>
-    <p class="direction">시간이 흐른다. 정적.</p>
-    <p>천장을 향한 여자의 시선. 숨이 아직 고르지 않다. 남자의 팔이 여자 위에 걸쳐져 있다. 두 사람의 맞닿은 피부에 가로등 빛이 들어오는 컷.</p>
-    <p>남자가 여자의 이마에 입술을 댄다. 아주 천천히.</p>
-    <p>여자가 눈을 감는다.</p>
-    <p>남자의 목소리. 낮고, 조용하게.</p>
-    <p><em>"...윤서야."</em></p>
-    <p>여자의 눈꺼풀이 미세하게 떨린다.</p>
-    <p class="direction">이게 행복한 건지, 슬픈 건지 — 독자는 아직 모른다.</p>
-  </div>
-
-  <div class="title-up">
-    야근
-    <div class="title-sub">— 3년 후 —</div>
-  </div>
-
-  <div class="cut">
-    <div class="cut-num">CUT 06 · 현재</div>
-    <p class="direction">형광등. 차가운 공기. 긴 회의 테이블.</p>
-    <p>문이 열린다. 서윤서가 들어선다. 단정한 정장. 무표정한 얼굴. 오프닝의 그 여자라는 게 — 분위기로만 느껴진다. 확인은 안 된다.</p>
-    <p>상석의 남자가 서류를 내려다보며 말한다.</p>
-    <p><em class="w">"서 대리, 자리 앉아요."</em></p>
-    <p>윤서, 그 목소리에 한 박자 멈춘다.</p>
-    <p class="direction">천천히 시선을 올린다.</p>
-    <p>차도현이 — 윤서를 보지 않는다. 서류만 본다.</p>
-    <p>윤서의 내레이션.</p>
-    <p><em>'3년이 지났는데.'</em><br>
-    <em>'그 손은 왜 아직도 기억이 나.'</em></p>
-    <p>윤서가 자리에 앉는다. 도현이 고개를 들어 전체를 훑는다. 윤서를 지나친다. 멈추지 않는다.</p>
-    <p>윤서의 손이 — 무릎 위에서 조용히 쥐어진다.</p>
-    <p class="direction">독자는 이제 안다. 오프닝의 그 두 사람이 누구인지.</p>
-  </div>
-
-</div>
-</body>
-</html>
+    <p>현재. 형광등 아래 긴 회의 테이블. 문이 열리고 서윤서가 들어선다. 상석의 남자가 서류를 내려다보며 말한다. <em>"서 대리, 자리 앉아요."</em> 윤서가 그 목소리에 한 박자 멈춘다. 천천히 시선을 올린다. 차도현이 — 윤서를 보지 않는다. 서류만 본다. 윤서의 내레이션. <em class="gray">'3년이 지났는데. 그 사람 목소리는 왜 하나도 안 변했을까.'</em> 윤서가 자리에 앉는다. 두 사람 사이에 테이블 가득한 사람들이 있지만 — 독자 눈에는 그 둘만 보인다.</p>
 
     <div class="flashback">
       <div class="flashback-label">FLASHBACK · 대학 시절</div>
